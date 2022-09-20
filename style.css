@@ -1,0 +1,29 @@
+body {
+    /* sets the background for all used space (if a full screen isn't used then it will fill to fit a full screen) */
+    background-image: url(https://images.unsplash.com/photo-1663275164457-ee8ae128eeb2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=663&q=80);
+  }
+  
+  h1 {
+    /* sets background color around the h1 text */
+color: fuchsia;
+  } 
+  h2 {
+    color: hotpink;
+  }
+h1, h2 {
+  text-align: center;
+}
+body{ 
+  font-family: 'Dangrek', cursive;
+}
+.mr_rerick{
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-left: 25%;
+  background-color:lightpink;
+  color: lightblue;
+  height: 600px;
+  width: 50%;
+  text-align: center;
+  position: relative;
+}
