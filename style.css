@@ -1,29 +1,82 @@
-body {
-    /* sets the background for all used space (if a full screen isn't used then it will fill to fit a full screen) */
-    background-image: url(https://images.unsplash.com/photo-1663275164457-ee8ae128eeb2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=663&q=80);
-  }
-  
-  h1 {
-    /* sets background color around the h1 text */
-color: fuchsia;
-  } 
-  h2 {
-    color: hotpink;
-  }
-h1, h2 {
+h2 {
+  color: hotpink;
+}
+h1{
+  color: cornsilk;
+}
+
+.headers {
   text-align: center;
+  background-color: black;
+  border: 3px solid whitesmoke;
+  padding-left: 1px;
+  padding-right: 1px;
 }
-body{ 
+
+.grande {
+  color: blueviolet;
+}
+
+.one {
+  color: blueviolet;
+}
+
+.favorites {
+  color: black;
+}
+
+.faves {
+  columns: blueviolet;
+}
+
+ body {
   font-family: 'Dangrek', cursive;
+ background-image: url(image.jpg);
 }
-.mr_rerick{
+
+
+.one{
+  color: blueviolet;
+}
+
+.mnr,
+.fave {
   border-radius: 15px;
   margin-top: 50px;
   margin-left: 25%;
-  background-color:lightpink;
-  color: lightblue;
+  background-color: lightpink;
+  color: blueviolet;
   height: 600px;
   width: 50%;
   text-align: center;
-  position: relative;
+}
+
+.zero {
+border-radius: 15px;
+  margin-top: 50px;
+  margin-left: 25%;
+  background-color: plum;
+ color: honeydew;
+  height: 600px;
+  width: 50%;
+  text-align: center;
+}
+.imageone,
+.imagetwo,
+.imagethird {
+ text-align: center;
+ margin: 20px;
+ height: 350px;
+ margin-top: 5px;
+}
+
+.yeah {
+  border-radius: 15px;
+  margin-top: 50px;
+  margin-left: 25%;
+  background-color: lightpink;
+  color: blueviolet;
+  height: 600px;
+  width: 50%;
+  text-align: center;
 }
